@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>StackLang</title>
+    <script src="index.js"></script>
+    <style>
+      * {
+        background-color: #000;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        font-family: monospace;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      input {
+        width: calc(100% - 2rem);
+        border: none;
+        outline: none;
+        padding: 1rem;
+        height: 1rem;
+      }
+
+      flex {
+        display: flex;
+        height: calc(100% - 3rem);
+      }
+
+      span {
+        width: 1rem;
+        display: inline-block;
+        padding: 0.5rem;
+        align-self: flex-end;
+      }
+
+      div {
+        white-space: pre;
+      }
+
+      line {
+        display: block;
+      }
+      print {
+        display: block;
+        color: #0f0;
+      }
+    </style>
+  </head>
+  <body onload="DomLoad()">
+    <input autocomplete="off" />
+    <flex>
+      <span></span>
+      <div></div>
+    </flex>
+  </body>
+</html>
